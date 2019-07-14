@@ -1,0 +1,23 @@
+{% extends "lipid/base.html" %}
+{% block content %}
+	<div class="main-content">
+
+
+		<nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
+			<div class="container-fluid">
+				<a class="h4 mb-0 text-uppercase d-none d-lg-inline-block" href="./index.html">Dashboard</a>
+			</div>
+		</nav> 
+
+		<div class="header pb-8 pt-6 pt-md-6">
+			<div class="iframe-container d-lg-block">
+				<body style="margin:0px;padding:0px;overflow:hidden">
+					<iframe src="https://kaylaapp.shinyapps.io/function1/">
+						<p>Your browser does not support iframes.</p>
+					</iframe>
+				</body>
+			</div>
+		</div>
+	</div>
+	<div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+{% endblock content %}
